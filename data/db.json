@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "avatarUrl": "",
+      "subscriptions": [],
+      "id": "seed",
+      "name": "mora",
+      "email": "mora@thinkwell.local",
+      "passwordHash": "c717f30e875611a5d37b9c51156c0b7d:095d575c725737f5790753e3f721c30ee250dfe6fa542dd94615c809a0a686fd6512de78769d092686752cc9923649f342a3eb7a1e1107759d1f3d1ba71f44a2",
+      "createdAt": "2026-05-23T23:08:09.977Z"
+    },
+    {
+      "avatarUrl": "/public/uploads/avatars/8faa22b17fe92d2cae8f718e.jpg",
+      "subscriptions": [
+        "seed"
+      ],
+      "id": "ef6ec869590b8321719d1fc2",
+      "name": "morfy",
+      "email": "morfymo@gmail.com",
+      "passwordHash": "33fc38214ba002b69b5de9701147856f:bb00fd3a8fb7f01e62ef26b32cafc6104ccdaf2f9bcb5c9188d18e76d7e50c7526a33812f7af6b0bd5d7ba45ff7a628414710b087ed9011b7ef5e81fe570f627",
+      "createdAt": "2026-05-23T18:03:20.510Z"
+    },
+    {
+      "avatarUrl": "/public/uploads/avatars/c7569dd6f17c76c03da27685.png",
+      "subscriptions": [],
+      "id": "da3fe93209cb7e31e321755f",
+      "name": "Renamed Test",
+      "email": "feature-test-1779560687@example.com",
+      "passwordHash": "816cb7163cdf2db01a8678100f86a511:521ee97fc8539107796b4df890d710d663b1d048bb54b91d897aa2fcc433e59fc7e377a7d1573504aa2c03b5a9c6cc83cb1508fe8d5a114eacd6c8e8741ea572",
+      "createdAt": "2026-05-23T18:24:47.439Z"
+    },
+    {
+      "avatarUrl": "",
+      "subscriptions": [],
+      "id": "807643ee91e9aafceb83c2c8",
+      "name": "Writer 1779563655",
+      "email": "writer-1779563655@example.com",
+      "passwordHash": "92ab0557cfe6fbf755a78db0cb2597d2:38f4a6d9993ec2113b78b7104b6ae8bb04a36ed53aa6aeb36cddb3d43ef860cd31dbc0533c56256be741c5b3a6cc149923ab70c5dcfefb1c224b46d5e9f7ad55",
+      "createdAt": "2026-05-23T19:14:15.889Z"
+    },
+    {
+      "avatarUrl": "",
+      "subscriptions": [],
+      "id": "3dcab50ee691044672a18613",
+      "name": "Save Button Test",
+      "email": "save-button-1779572997@example.com",
+      "passwordHash": "7322b4f85945878365bb1a22ca1031ae:5bcd22eb14441d1287b1f6512ea22b1f453cc331f0f0d053cd5573d3718dc18db2ccf69ff00146eb3d2b0873d4e356e2d081cc687dcab96abd3da818de1d68f3",
+      "createdAt": "2026-05-23T21:49:57.934Z"
+    },
+    {
+      "avatarUrl": "",
+      "subscriptions": [],
+      "id": "72b1c40fdeaf256dd5962654",
+      "name": "Delete Smoke",
+      "email": "delete-smoke-1779573198@example.com",
+      "passwordHash": "d07044ae6cba190b0bd5212c21fd04fe:ae5ae36f5312fce7e024ba956bc2ca64138da4fd4ee6ccb4468acbec48914dc12f064829a75ceae9bb69872bdef5218cf00635aad1d980d5b6ef4a4881eb4f1d",
+      "createdAt": "2026-05-23T21:53:18.694Z"
+    },
+    {
+      "avatarUrl": "",
+      "subscriptions": [],
+      "id": "b9e53ca0628b55edf5dcbf3a",
+      "name": "Delete Smoke",
+      "email": "delete-smoke-1779573238@example.com",
+      "passwordHash": "c00cbd93a27a0b841a6ec47e285d91ed:2bdf40058584bb5164ed71248d797cdc77fbaf6e96ebefbb72dd435a77695a0e48d5ff6bfc7f33d9563d4a6bffd723079d682f544150710836ac037a363fafda",
+      "createdAt": "2026-05-23T21:53:58.284Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "RE0YaWVcV7H45eanQTy0Y2yDpmEwThY-FE6FpMkUtmI",
+      "userId": "ef6ec869590b8321719d1fc2",
+      "expiresAt": 1780769066445
+    },
+    {
+      "token": "4RJuUKh1dzSWHRxDMJsmmBWKUVcYaasm1H9lr19ME7E",
+      "userId": "da3fe93209cb7e31e321755f",
+      "expiresAt": 1780770287439
+    },
+    {
+      "token": "WzPzEMYwxQVZaikTtl3axECGAJFJN4vwcOIMNf_g_6Y",
+      "userId": "ef6ec869590b8321719d1fc2",
+      "expiresAt": 1780771548859
+    },
+    {
+      "token": "-ZVgLriUZ4vmn4d_DCBYZDK5OjF2d2EFw2YxgePInpY",
+      "userId": "807643ee91e9aafceb83c2c8",
+      "expiresAt": 1780773255889
+    },
+    {
+      "token": "2bcAX1gToWl0qOtpTy27lrV_EkCm32LxNH7QDInxk_s",
+      "userId": "3dcab50ee691044672a18613",
+      "expiresAt": 1780782597935
+    },
+    {
+      "token": "CZccSXzywo9nBVcJz9bWEEkteQZHVx-dZmg5hUhHxRs",
+      "userId": "72b1c40fdeaf256dd5962654",
+      "expiresAt": 1780782798694
+    },
+    {
+      "token": "Zd-7klZR0tdky24953SGpBhGuH9NCANrb0_MfcdW-TA",
+      "userId": "b9e53ca0628b55edf5dcbf3a",
+      "expiresAt": 1780782838284
+    },
+    {
+      "token": "yQ2dSG52Rm5JIMwpplHBb_8d3qFzNVqgVzBST87QKYE",
+      "userId": "ef6ec869590b8321719d1fc2",
+      "expiresAt": 1780785445209
+    }
+  ],
+  "articles": [
+    {
+      "authorAvatar": "",
+      "id": "276c66ee2eee39fd88059f69",
+      "authorId": "seed",
+      "authorName": "mora",
+      "title": "What Makes a Thought Worth Publishing",
+      "slug": "what-makes-a-thought-worth-publishing",
+      "coverImage": "",
+      "body": "A useful article does not need to be loud. It needs a clear observation, a reason someone should care, and enough honesty to make the reader pause. This platform is built around that small discipline: capture the thought, shape it into an article, and publish it when it is ready.",
+      "status": "published",
+      "createdAt": "2026-05-23T17:26:11.587Z",
+      "updatedAt": "2026-05-23T17:26:11.588Z",
+      "publishedAt": "2026-05-23T17:26:11.588Z"
+    },
+    {
+      "authorAvatar": "",
+      "id": "9295c01a4c991a1e90c6c4b3",
+      "authorId": "807643ee91e9aafceb83c2c8",
+      "authorName": "Writer 1779563655",
+      "title": "Button Draft Test",
+      "slug": "button-draft-test",
+      "coverImage": "",
+      "body": "Draft body",
+      "status": "draft",
+      "createdAt": "2026-05-23T19:14:15.897Z",
+      "updatedAt": "2026-05-23T19:14:15.897Z",
+      "publishedAt": null
+    },
+    {
+      "authorAvatar": "",
+      "id": "ad31d3359671073fed396552",
+      "authorId": "807643ee91e9aafceb83c2c8",
+      "authorName": "Writer 1779563655",
+      "title": "Button Publish Test",
+      "slug": "button-publish-test",
+      "coverImage": "",
+      "body": "Published body",
+      "status": "published",
+      "createdAt": "2026-05-23T19:14:15.902Z",
+      "updatedAt": "2026-05-23T19:14:15.902Z",
+      "publishedAt": "2026-05-23T19:14:15.902Z"
+    },
+    {
+      "authorAvatar": "",
+      "id": "4c962b3785e46bee6270131b",
+      "authorId": "3dcab50ee691044672a18613",
+      "authorName": "Save Button Test",
+      "title": "Draft Button Smoke 1779572997",
+      "slug": "draft-button-smoke-1779572997",
+      "coverImage": "",
+      "body": "Draft body",
+      "status": "draft",
+      "createdAt": "2026-05-23T21:49:57.943Z",
+      "updatedAt": "2026-05-23T21:49:57.943Z",
+      "publishedAt": null
+    },
+    {
+      "authorAvatar": "",
+      "id": "4bed9a587e1a07403645657e",
+      "authorId": "3dcab50ee691044672a18613",
+      "authorName": "Save Button Test",
+      "title": "Publish Button Smoke 1779572997",
+      "slug": "publish-button-smoke-1779572997",
+      "coverImage": "",
+      "body": "Published body",
+      "status": "published",
+      "createdAt": "2026-05-23T21:49:57.950Z",
+      "updatedAt": "2026-05-23T21:49:57.950Z",
+      "publishedAt": "2026-05-23T21:49:57.950Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": "66470db37619aa9d4ca956ed",
+      "articleId": "276c66ee2eee39fd88059f69",
+      "userId": "ef6ec869590b8321719d1fc2",
+      "userName": "morfy",
+      "userAvatar": "/public/uploads/avatars/8faa22b17fe92d2cae8f718e.jpg",
+      "createdAt": "2026-05-23T18:54:38.221Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "dbb4a53c57b70d540137c549",
+      "userId": "seed",
+      "type": "account_followed",
+      "articleId": "",
+      "articleTitle": "",
+      "articleSlug": "",
+      "title": "New follower",
+      "targetUrl": "/account/ef6ec869590b8321719d1fc2",
+      "actorId": "ef6ec869590b8321719d1fc2",
+      "actorName": "morfy",
+      "createdAt": "2026-05-23T23:08:36.028Z",
+      "readAt": null
+    }
+  ],
+  "mailboxMessages": []
+}
