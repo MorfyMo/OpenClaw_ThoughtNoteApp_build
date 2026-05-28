@@ -1,13 +1,15 @@
-import { createHash, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
-import { createServer } from "node:http";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { existsSync } from "node:fs";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { createServer } from "node:http";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const publicDir = join(__dirname, "public");
-const dataDir = join(__dirname, "data");
+// add for /var
+// const dataDir = join(__dirname, "data");
+const dataDir = "/var/data";
 const dbPath = join(dataDir, "db.json");
 const avatarUploadDir = join(publicDir, "uploads", "avatars");
 const PORT = Number(process.env.PORT || 4173);
@@ -42,6 +44,8 @@ let db = {
   notifications: [],
   mailboxMessages: []
 };
+
+const seedDbPath = join(__dirname, "data", "db.json");
 
 await ensureDatabase();
 
@@ -98,9 +102,17 @@ server.listen(PORT, () => {
   console.log(`Thinkwell running at http://localhost:${PORT}`);
 });
 
+
+// const seedDbPath = join(__dirname, "data", "db.json");
+
 async function ensureDatabase() {
   await mkdir(dataDir, { recursive: true });
   await mkdir(avatarUploadDir, { recursive: true });
+  
+  if (!existsSync(dbPath) && existsSync(seedDbPath)) {
+    await writeFile(dbPath, await readFile(seedDbPath, "utf8"), "utf8");
+  }
+
   if (existsSync(dbPath)) {
     const stored = JSON.parse(await readFile(dbPath, "utf8"));
     db = {
